@@ -1,0 +1,114 @@
+/* CSS FILE */
+
+#searchView{
+	-fx-background-color: linear-gradient(dodgerblue 40%, #69b5ff 100%);
+	-fx-border-width: 0 2 0 0;
+	-fx-border-color: #000;
+}
+#lblSearch{
+	-fx-text-fill: #212121;
+	-fx-font-weight: bold;
+	-fx-font-size: 3em;	
+}
+
+#mainView{
+	-fx-background-color: #f2f2f2;
+}
+
+#titleBar {
+	-fx-background-color: #f0f8ff;
+	-fx-border-width: 0 0 1 0;
+	-fx-border-color: #b7f8ff;
+}
+#navBar{
+	-fx-background-color: #fff;
+}
+.lblSearchResult{
+	-fx-text-fill: white;
+	-fx-font-size: 1.2em;
+	-fx-font-weight: bold;
+}
+.lblSearchResult:hover{
+	-fx-underline: true;
+	-fx-cursor: hand;
+}
+#searchResult{
+	-fx-background-color:transparent;
+}
+#searchResultScroller{
+	-fx-background-color:transparent;
+}
+#searchResultScroller > .viewport {
+   -fx-background-color: transparent;
+}
+#searchResultScroller:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+
+.titleBtn{
+	-fx-background-radius:5; -fx-border-radius: 5;
+	-fx-border-color:#000; -fx-border-width:1;
+	-fx-background-color: #eee;
+	-fx-padding:0.5em 0.5em;
+	/*
+	-fx-graphic:url("../imgs/newIcon.png");
+	*/
+	-fx-pref-width: 26;
+	-fx-pref-height: 26;
+    -fx-background-size: 26px 26px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+.titleBtnNew{
+	-fx-background-image: url("imgs/newIcon.png");
+}
+.titleBtnUpdate{
+	-fx-background-image: url("imgs/updateIcon.png");
+}
+.titleBtnDelete{
+	-fx-background-image: url("imgs/trashIcon.png");
+}
+.titleBtn:hover{
+	-fx-background-color: #fff;
+}
+
+.titleBtn:pressed{
+	-fx-background-color:#c4c4c4;
+}
+.lblMainGrid{
+	-fx-font-size: 1.2em;
+	-fx-font-weight: bold;
+	-fx-text-fill: #313131;
+}
+
+
+.navBtn{
+	-fx-background-radius:50;
+	-fx-border-radius:50;
+	-fx-border-width: 0;
+	-fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#b5c8e8, #295486),
+        linear-gradient(#C0CCEA 3%, #306AD8 49%, #104EAE 3%, #3796C5 100%);
+   -fx-text-fill: #edf9f8;
+   -fx-font-family: 'arial';
+   -fx-font-weight: bold;
+   -fx-font-size: 2em;
+   -fx-opacity: 0.9;
+	
+}
+.navBtn:hover{
+	-fx-background-color: 
+        #3c7fff,
+        linear-gradient(#b5e9f9, #2959ff),
+        linear-gradient(#C0ddfd 3%, #4D7fff 49%, #145fff 3%, #379fff 100%);
+}
+
+.navBtn:pressed{
+	-fx-border-width: 0; -fx-border-color: transparent;
+	-fx-background-color:-fx-inner-border, #1e90ff,
+        linear-gradient(#b5c7c7, #295375),
+        linear-gradient(#C0Cfff 3%, #2F4D9A 49%, #0d3c8b 3%, #379fff 100%);
+}

@@ -1,0 +1,5 @@
+101,Fred Budd,1 Main Street,Brampton,40,22.5
+102,Barney Stone,44 King Street,Oakville,40,20.5
+103,Wilma Rubble,54 FirstStreet,Brampton,30,18.3
+104,Joshua,22 Queens Street,Brampton,35,22.2
+105,Camillia,New SouthPart,Los Angeles,30,18.8
